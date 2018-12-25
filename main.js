@@ -1,7 +1,14 @@
 !function(){
+  
   var play=document.querySelector("#play")
   var pause=document.querySelector("#pause")
   var music=document.querySelector("#music")
+  setTimeout(() => {
+    music.play() 
+  }, 1000);
+
+
+
   play.addEventListener('click',function(e){
     e.currentTarget.classList.add('active')
     pause.classList.remove('active')
