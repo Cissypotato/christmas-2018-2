@@ -1,0 +1,16 @@
+*{margin: 0;padding: 0;}
+body{margin: 0;padding: 0;}
+#app{position: relative;width: 100%;height: 100vh}
+
+
+.musicIcon{width: 32px;height: 32px;border: 1px solid green;position: absolute;top: 18px;left: 18px;}
+.pause{width: 100%;height: 100%;}
+.pause>img{height: 100%}
+.pause.active{display: none}
+.play.active{display: none}
+
+.merry{margin-top: 48px;position: absolute;width: 100%}
+.merry>h1{color: rgb(228, 20, 54);text-align: center;border: 1px solid red;font-family:"Edwardian Script ITC";font-size: 80px;}
+.tree{height: 100vh;width: 100%;margin: 0 auto;position: absolute;top:0;left:0;display: flex;justify-content: center ;align-items: flex-end}
+
+.tree>img{max-width: 100%;height:70%;margin-bottom: -25px;}
