@@ -5,6 +5,7 @@
   var music=document.querySelector("#music")
   setTimeout(() => {
     music.play() 
+    console.log(1)
   }, 1000);
 
 
