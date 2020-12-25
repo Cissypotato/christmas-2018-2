@@ -3,10 +3,10 @@
   var play=document.querySelector("#play")
   var pause=document.querySelector("#pause")
   var music=document.querySelector("#music")
-  setTimeout(() => {
-    music.play() 
-    console.log(1)
-  }, 1000);
+  // setTimeout(() => {
+  //   music.play() 
+  //   console.log(1)
+  // }, 1000);
 
 
 
